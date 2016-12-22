@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="RTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c4b7a48c-327c-4464-b572-ceb8edf9aab5}</ProjectGuid>
+    <AssemblyName>RProject1</AssemblyName>
+    <Name>PetromPricePredictions</Name>
+    <RootNamespace>RProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ReadData.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadResults.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Step1.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Step2.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Step3.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Step4.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Step5.R">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="RTarget">
+    <Message Text="Executing R script" />
+  </Target>
+</Project>

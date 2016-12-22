@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# REvolution Solution File, Format Version 1.00
+Project("{66CA0ECE-5947-4A75-AB4D-7EEB9F714C89}") = "PetromPricePredictions", "PricePredictions\PetromPricePredictions.rproj", "{C4B7A48C-327C-4464-B572-CEB8EDF9AAB5}"
+EndProject
+Project("{66CA0ECE-5947-4A75-AB4D-7EEB9F714C89}") = "BasketAnalysis", "BasketAnalysis\BasketAnalysis.rproj", "{DAC5F2FD-B160-45D2-AFA7-530C84D5A34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4B7A48C-327C-4464-B572-CEB8EDF9AAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B7A48C-327C-4464-B572-CEB8EDF9AAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B7A48C-327C-4464-B572-CEB8EDF9AAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B7A48C-327C-4464-B572-CEB8EDF9AAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC5F2FD-B160-45D2-AFA7-530C84D5A34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC5F2FD-B160-45D2-AFA7-530C84D5A34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC5F2FD-B160-45D2-AFA7-530C84D5A34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC5F2FD-B160-45D2-AFA7-530C84D5A34F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
